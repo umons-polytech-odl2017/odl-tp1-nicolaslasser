@@ -10,15 +10,13 @@ class Person {
 		this.age=a;
 	}
 
-	public Person(){
-		this.name=null;
-		this.age=0;
-	}
+
 
 	public String getName(){
-		return this.name;
+		return name;
 	}
 
 	public int getAge(){
-		return this.age;
+		return age;
 	}
+}
