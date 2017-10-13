@@ -6,7 +6,7 @@ public class Exercise1 {
 		// Créez un constructeur public permettant d'initialiser ces valeurs au moment de la construction.
 		// Créez des getters publics pour lire ces valeurs une fois la classe construite.
 
-		return null;
+		return new Person(name,age);
 	}
 
 	public static void main(String[] args) {
